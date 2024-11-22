@@ -1,5 +1,6 @@
 import React from 'preact/compat';
 import './style.css';
+import profilePic from '../../assets/profilePic.jpeg';
 
 export function Home() {
 	return (
@@ -7,7 +8,7 @@ export function Home() {
 			<h1>Edwina Chan</h1>
 			<section>
 				<p>Watch this space...</p>
-				<img src='src/assets/profilePic.jpeg' height='50%' width='50%' />
+				<img src={profilePic} height='50%' width='50%' />
 			</section>
 		</div>
 	);
