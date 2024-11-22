@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-# www-edwina-chan-com
-=======
-# `create-preact`
+# My portfolio
 
-<h2 align="center">
-  <img height="256" width="256" src="./src/assets/preact.svg">
-</h2>
-
-<h3 align="center">Get started using Preact and Vite!</h3>
+Some shenanigans.
 
 ## Getting Started
 
@@ -16,4 +9,3 @@
 -   `npm run build` - Builds for production, emitting to `dist/`
 
 -   `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
->>>>>>> a239ccc (initialise preact)
