@@ -1,3 +1,16 @@
-.home section {
-	margin-top: 5rem;
+.bio {
+	h1 {
+		font-size: 60px;
+		margin-bottom: 0px;
+	}
+
+	text-align: left;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+	p {
+		width: 300px;
+		text-align: justify;
+	}
 }

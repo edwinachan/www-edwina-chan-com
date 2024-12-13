@@ -1,20 +1,16 @@
-:root {
-	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-	line-height: 1.5;
-	font-weight: 400;
 
-	color: #222;
-	background-color: #ffffff;
-
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
+	/* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	 */
+@font-face {
+	font-family: funnel-display-variable; 
+	src: url('./assets/funnel-display-variable.ttf');
 }
 
 body {
 	margin: 0;
+	font-family: 'funnel-display-variable', sans-serif;
+	background-color: #F5F5F5;
+	color: #292A2A;
 }
 
 #app {
@@ -26,7 +22,8 @@ body {
 header {
 	display: flex;
 	justify-content: flex-end;
-	background-color: #246e4e;
+	background-color: #177245;
+	color: #F5F5F5;
 }
 
 header nav {
@@ -44,6 +41,34 @@ header a.active {
 }
 
 header a:hover {
+	background-color: #0008;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-end;
+	background-color: #177245;
+	color: #F5F5F5;
+}
+
+footer .email {
+	margin: 5px;
+}
+
+footer nav {
+	display: flex;
+}
+
+footer a {
+	/* color: #fff; */
+	/* text-decoration: none; */
+}
+
+footer a.active {
+	background-color: #0005;
+}
+
+footer a:hover {
 	background-color: #0008;
 }
 

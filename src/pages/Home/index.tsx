@@ -4,11 +4,16 @@ import profilePic from '../../assets/profilePic.jpeg';
 
 export function Home() {
 	return (
-		<div class="home">
-			<h1>Edwina Chan</h1>
+		<div class="bio">
 			<section>
-				<p>Watch this space...</p>
-				<img src={profilePic} height='50%' width='50%' />
+					<h1>Hi, I'm Edwina</h1>
+					<h2>I'm a software engineer</h2>
+					<p>
+						I currently work in the Build and Launch team supporting iPlayer and Sounds on TV,
+						but my previous experience includes building features for the playback and discovery 
+						space on the iPlayer app, as well as features for Sounds.
+					</p>
+				{ /*<img src={profilePic} height='50%' width='50%' /> */}
 			</section>
 		</div>
 	);
