@@ -1,16 +1,30 @@
-.bio {
-	h1 {
-		font-size: 60px;
-		margin-bottom: 0px;
+.home {
+	top: 50px;
+	left: 20px;
+	position: absolute;
+	width: 1500px;
+	display: inline-block;
+	height: 850px;
+}
+
+section.nav, section.content {
+	width: 50%;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1500px) {
+	.home {
+		width: 1000px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.home {
+		width: 360px;
 	}
 
-	text-align: left;
-	position: absolute;
-	top: 20px;
-	left: 20px;
-
-	p {
-		width: 300px;
-		text-align: justify;
+	section.nav, section.content {
+		width: 100%;
+		display: block;
 	}
 }

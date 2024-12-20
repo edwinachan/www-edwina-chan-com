@@ -10,14 +10,14 @@ import './style.css';
 export function App() {
 	return (
 		<LocationProvider>
-			<Header />
+			{/* <Header /> */}
 			<main>
 				<Router>
 					<Route path="/" component={Home} />
 					<Route default component={NotFound} />
 				</Router>
 			</main>
-			<Footer />
+			{/* <Footer /> */}
 		</LocationProvider>
 	);
 }
