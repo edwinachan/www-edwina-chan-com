@@ -1,13 +1,7 @@
 .bio {
-	h1 {
-		font-size: 60px;
-		margin-bottom: 0px;
-	}
-
 	text-align: left;
 
 	p {
-		width: 300px;
-		text-align: justify;
+		font-size: 20px;
 	}
 }

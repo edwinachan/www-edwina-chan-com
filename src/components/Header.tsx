@@ -9,6 +9,12 @@ export function Header() {
 				<a href="/" class={url == '/' && 'active'}>
 					Home
 				</a>
+				<a href="/" class={url == '/' && 'active'}>
+					About Me
+				</a>
+				<a href="/" class={url == '/' && 'active'}>
+					Contact
+				</a>
 			</nav>
 		</header>
 	);

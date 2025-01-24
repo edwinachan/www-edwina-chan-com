@@ -1,19 +1,14 @@
 import React from 'preact/compat';
 import './style.css';
+import { Title } from '../../components/Title/Title';
 import { Bio } from '../../components/Bio/Bio';
-import { Content } from '../Content/Content';
-import { Menu } from '../Menu/Menu';
+
 
 export function Home() {
 	return (
 		<div class='home'>
-			<section class="nav">
+				<Title />
 				<Bio />
-				<Menu />
-			</section>
-			<section class="content">
-				<Content />
-			</section>
 		</div>
 	);
 }
