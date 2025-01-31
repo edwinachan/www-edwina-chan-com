@@ -6,13 +6,13 @@
 
 @media only screen and (max-width: 600px) {
 	.home {
-		width: 500px;
+		width: 340px;
 	}
 }
 
 @media only screen and (min-width: 600px) {
 	.home {
-		width: 500px;
+		width: 340px;
 	}
 }
 
