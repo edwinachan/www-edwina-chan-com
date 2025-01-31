@@ -2,10 +2,10 @@ import { render } from 'preact';
 import { LocationProvider, Router, Route } from 'preact-iso';
 
 import { Header } from './components/Header.js';
-import { Footer } from './components/Footer.js';
 import { Home } from './pages/Home/index.jsx';
 import { NotFound } from './pages/_404.jsx';
 import './style.css';
+import React from 'preact/compat';
 
 export function App() {
 	return (
@@ -17,9 +17,10 @@ export function App() {
 					<Route default component={NotFound} />
 				</Router>
 			</main>
-			<Footer />
 		</LocationProvider>
 	);
 }
 
-render(<App />, document.getElementById('app'));
+const appElement = document.getElementById('app') as HTMLElement
+
+render(<App />, appElement);

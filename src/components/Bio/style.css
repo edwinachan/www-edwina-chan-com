@@ -1,35 +1,33 @@
-.home {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+.bio {
+	text-align: left;
 }
 
 @media only screen and (max-width: 600px) {
-	.home {
-		width: 500px;
+	.bio p {
+		font-size: 10px;
 	}
 }
 
 @media only screen and (min-width: 600px) {
-	.home {
-		width: 500px;
+	.bio p {
+		font-size: 10px;
 	}
 }
 
 @media only screen and (min-width: 768px) {
-	.home {
-		width: 640px;
+	.bio p {
+		font-size: 13px;
 	}
 }
 
 @media only screen and (min-width: 992px) {
-	.home {
-		width: 827px;
+	.bio p {
+		font-size: 17px;
 	}
 }
 
 @media only screen and (min-width: 1200px) {
-	.home {
-		width: 1000px;
+	.bio p {
+		font-size: 20px;
 	}
   }
