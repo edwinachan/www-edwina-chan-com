@@ -3,12 +3,23 @@ import './style.css';
 import { carousel } from '../../helpers/typingText';
 
 export function Title() {
-	// const [isTrue, shouldBeTrue] = useState(true);
+	const [activeTab, setActiveTab] = useState(true);
 	const carouselText = ['Software Engineer', 'Hiker', 'Cyclist'];
 	useEffect(() => {
+		console.log('useeffect')
 		carousel(carouselText, document.getElementById('sentence'));
-	}, [])
-	
+	}, []);
+
+	document.addEventListener('visibilitychange', () => {
+		console.log('visibility change')
+		if (document.hidden) {
+			setActiveTab(false)
+		} else {
+			setActiveTab(true)
+		}
+	})
+
+	console.log('render', `${new Date().getHours()}:`, `${new Date().getMinutes()}:`, `${new Date().getSeconds()}`)
 	return (
 		<div class="title">
 			<h1>Hi, I'm Edwina</h1>
