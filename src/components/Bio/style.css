@@ -4,19 +4,19 @@
 
 @media only screen and (max-width: 600px) {
 	.bio p {
-		font-size: 10px;
+		font-size: 15px;
 	}
 }
 
 @media only screen and (min-width: 600px) {
 	.bio p {
-		font-size: 10px;
+		font-size: 15px;
 	}
 }
 
 @media only screen and (min-width: 768px) {
 	.bio p {
-		font-size: 13px;
+		font-size: 15px;
 	}
 }
 

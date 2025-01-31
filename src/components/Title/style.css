@@ -35,8 +35,8 @@
 	}
 
 	.typing-container {
-		font-size: 20px;
-		height: 25px;
+		font-size: 26px;
+		height: 32px;
 	}
 
 	.input-cursor {
@@ -51,12 +51,12 @@
 	}
 
 	.typing-container {
-		font-size: 20px;
-		height: 25px;
+		font-size: 26px;
+		height: 32px;
 	}
 
 	.input-cursor {
-		height: 21px;
+		height: 26px;
 		margin-left: 4px;
 	}
 }
