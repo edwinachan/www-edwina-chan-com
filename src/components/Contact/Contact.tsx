@@ -48,7 +48,7 @@ export function Contact() {
                 <input name="email" type="email"/><br/><br/>
                 <label for="name">Message:</label>
                 <textarea name="message"></textarea><br/><br/>
-                <input type="submit"/>
+                <input type="submit" name="submit"/>
                 <div>
                     <p id="result-text"></p>
                 </div>

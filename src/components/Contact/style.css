@@ -1,6 +1,22 @@
-#infoForm input, textarea {
+#infoForm input {
     font-family: funnel-display-variable;
     margin-left: 7px;
+    color: #177245;
+    [name="submit"]{
+        font-weight: 800;
+    }
+}
+
+#infoForm {
+    [name="submit"]{
+        font-weight: 700;
+    }
+}
+
+#infoForm textarea {
+    font-family: funnel-display-variable;
+    margin-left: 7px;
+    color: #177245;
 }
 
 .contact {
